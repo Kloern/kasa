@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 .cardContainer {
     display: grid;
     gap: 60px;
@@ -18,22 +22,35 @@
 
 .card{
     position: relative;
-}
-
-.link img{
-    object-fit: cover;
-    aspect-ratio: 1;
-    max-width: 100%;
-    max-height: 100%;
+    display: flex;
+    align-items: end;
+    overflow: hidden;
+    height:210px;
+    width: 320px;
     border-radius: 10px;
 }
 
+.link img {
+    object-fit: cover;
+    object-position: center;
+    aspect-ratio: 1;
+    width: 100%;
+    height: 100%;
+}
+
 .p {
-    width: 150px;
     position: absolute;
-    bottom: 5px;
-    left: 10px;
     color: #FFFFFF;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
+    z-index: 100;
+    height:100%;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    align-items: end;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 150px;
 }
 
 @media all and (min-width: 685px) and (max-width: 950px) {

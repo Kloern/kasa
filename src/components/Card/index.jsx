@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom"
 import styles from '../Card/Card.module.css'
-import flatsList from '../../datas/logements.json'
+import Logements from '../../datas/logements.json'
 
 export default function Card() {
     return (
         <div className={styles.cardContainer}>
-            {flatsList.map((flat) => (
+            {Logements.map((flat) => (
                 <Link to={`./flat/${flat.id}`} key={flat.id} title={flat.title} picture={flat.cover} className={styles.link}>
                     <div className={styles.card}>
                         <img src={flat.cover} alt={flat.title} />
