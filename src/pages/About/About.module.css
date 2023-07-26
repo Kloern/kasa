@@ -1,16 +1,17 @@
 .about {
     margin: 0 100px;
+    min-height: 75vh;
 }
 
 .img {
-    max-width: 100%;
-    object-fit: cover;
+    width: 100%;
+    object-fit:cover;
     border-radius: 25px;
     height: 220px;
 }
 
 .valeurs {
-    width: 100%;
+    width: 80%;
     margin: auto;
 }
 
@@ -41,5 +42,14 @@
 
     .img {
         border-radius: 10px;
+    }
+    .description {
+        font-size: 13px;
+    }
+    .titreCollapse {
+        font-size: 14px;
+    }
+    .valeurs{
+        width: 100%;
     }
 }

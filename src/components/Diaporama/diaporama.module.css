@@ -54,4 +54,16 @@
     .pictures {
         height: 255px;
     }
+    .elementsCarousel {
+        height: 250px;
+    }
+    .arrow1, .arrow2 {
+        height: 30px;
+    }
+    .arrow1:hover, .arrow2:hover {
+        height: 32px;
+    }
+    .numberPictures {
+        font-size: 14px;
+    }
 }

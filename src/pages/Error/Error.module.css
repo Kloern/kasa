@@ -2,6 +2,10 @@
     text-align: center;
     margin: 0 100px 50px 100px;
     color: #FF6060;
+    min-height: 68vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .alert404 {
@@ -52,5 +56,8 @@ a {
     .description {
         margin: 0 0 130px 0;
         font-size: 18px;
+    }
+    .error {
+        min-height: 73vh;
     }
 }
